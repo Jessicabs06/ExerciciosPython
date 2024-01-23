@@ -85,3 +85,15 @@ else:
 print(f"O maior numero entre {numero10}, {numero11} e {numero12} e : {maior_numero}. ")    
 
 #Exercicio 9
+
+#Exercicio 10
+#Solicita tres numeros
+numero20 = int(input("Digite o primeiro numero inteiro. "))
+numero21 = int(input("Digite o segundo numero inteiro. "))
+numero22 = int(input("Digite o terceiro numero inteiro. "))
+
+#Ordena os numeros
+numeros_ordenados = sorted([numero20, numero21, numero22])
+
+#Resultado
+print("Numeros em ordem crescente: ", numeros_ordenados[0], numeros_ordenados[1], numeros_ordenados[2])
